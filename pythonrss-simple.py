@@ -6,6 +6,7 @@ rssfile = "social.rss"
 wrkrssfile = "tmpsocial.rss"
 lastbuilddate = str("<lastBuildDate>" + formatdate(localtime="True") + "</lastBuildDate>\n\n")
 
+link = str("<link>" + "https://example.com" + "</link>")
 title = input("Entry title? ")
 description = input("Entry body? ")
 pubdate = str("<pubdate>" + formatdate(localtime="True") + "</pubdate>\n")
